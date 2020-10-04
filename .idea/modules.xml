@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Brewery-Service.iml" filepath="$PROJECT_DIR$/.idea/Brewery-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mssc-beer-inventory-service-b/mssc-beer-inventory-service.iml" filepath="$PROJECT_DIR$/mssc-beer-inventory-service-b/mssc-beer-inventory-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mssc-beer-order-service-b/mssc-beer-order-service.iml" filepath="$PROJECT_DIR$/mssc-beer-order-service-b/mssc-beer-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mssc-beer-service-b/mssc-beer-service-b.iml" filepath="$PROJECT_DIR$/mssc-beer-service-b/mssc-beer-service-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mssc-brewery-bom-b/mssc-brewery-bom-b.iml" filepath="$PROJECT_DIR$/mssc-brewery-bom-b/mssc-brewery-bom-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mssc-config-server/mssc-config-server.iml" filepath="$PROJECT_DIR$/mssc-config-server/mssc-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mssc-eureka-b/mssc-eureka-b.iml" filepath="$PROJECT_DIR$/mssc-eureka-b/mssc-eureka-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mssc-gateway/mssc-gateway.iml" filepath="$PROJECT_DIR$/mssc-gateway/mssc-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mssc-inventory-failover/mssc-inventory-failover.iml" filepath="$PROJECT_DIR$/mssc-inventory-failover/mssc-inventory-failover.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sfg-brewery-bom-b/sfg-brewery-bom.iml" filepath="$PROJECT_DIR$/sfg-brewery-bom-b/sfg-brewery-bom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sfg-brewery-bom-b/sfg-brewery-bom-b.iml" filepath="$PROJECT_DIR$/sfg-brewery-bom-b/sfg-brewery-bom-b.iml" />
+    </modules>
+  </component>
+</project>

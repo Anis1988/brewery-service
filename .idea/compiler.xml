@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mssc-inventory-failover" />
+        <module name="mssc-gateway" />
+        <module name="mssc-eureka-b" />
+        <module name="mssc-config-server" />
+      </profile>
+      <profile name="Annotation profile for mssc-beer-service-b" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.3.1.Final/mapstruct-processor-1.3.1.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/jolira/hickory/1.0.0/hickory-1.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.3.1.Final/mapstruct-1.3.1.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/puppycrawl/tools/checkstyle/8.14/checkstyle-8.14.jar" />
+          <entry name="$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-container-default/1.6/plexus-container-default-1.6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-test/4.0.3.RELEASE/spring-test-4.0.3.RELEASE.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.0.3.RELEASE/spring-beans-4.0.3.RELEASE.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar" />
+          <entry name="$MAVEN_REPOSITORY$/joda-time/joda-time/2.9/joda-time-2.9.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar" />
+        </processorPath>
+        <module name="mssc-beer-order-service" />
+        <module name="mssc-beer-service-b" />
+        <module name="mssc-beer-inventory-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mssc-beer-inventory-service" target="11" />
+      <module name="mssc-beer-order-service" target="11" />
+      <module name="mssc-beer-service-b" target="11" />
+      <module name="mssc-brewery-bom-b" target="11" />
+      <module name="mssc-config-server" target="11" />
+      <module name="mssc-eureka-b" target="11" />
+      <module name="mssc-gateway" target="11" />
+      <module name="mssc-inventory-failover" target="11" />
+      <module name="sfg-brewery-bom" target="11" />
+      <module name="sfg-brewery-bom-b" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mssc-beer-inventory-service" options="-parameters -Amapstruct.defaultComponentModel=spring" />
+      <module name="mssc-beer-order-service" options="-parameters -Amapstruct.defaultComponentModel=spring" />
+      <module name="mssc-beer-service-b" options="-parameters -Amapstruct.defaultComponentModel=spring" />
+      <module name="mssc-config-server" options="-parameters" />
+      <module name="mssc-eureka-b" options="-parameters" />
+      <module name="mssc-gateway" options="-parameters" />
+      <module name="mssc-inventory-failover" options="-parameters" />
+    </option>
+  </component>
+</project>

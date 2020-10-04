@@ -1,0 +1,4 @@
+anis/com/beer/order/service/services/BeerOrderManagerImpIT.class
+anis/com/beer/order/service/services/testcomponents/BeerOrderValidationListener.class
+anis/com/beer/order/service/BeerOrderServiceApplicationTests.class
+anis/com/beer/order/service/services/BeerOrderManagerImpIT$RestTemplateBuilderProvider.class

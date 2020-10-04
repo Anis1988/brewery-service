@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/mssc-beer-inventory-service-b/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mssc-beer-order-service-b/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mssc-beer-order-service-b/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mssc-beer-service-b/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mssc-beer-service-b/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mssc-config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mssc-config-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mssc-eureka-b/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mssc-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mssc-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mssc-inventory-failover/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mssc-inventory-failover/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sfg-brewery-bom-b/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sfg-brewery-bom-b/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

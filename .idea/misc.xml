@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/mssc-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/mssc-eureka-b/pom.xml" />
+        <option value="$PROJECT_DIR$/sfg-brewery-bom-b/pom.xml" />
+        <option value="$PROJECT_DIR$/sfg-brewery-bom-b/pom.xml.releaseBackup" />
+        <option value="$PROJECT_DIR$/mssc-brewery-bom-b/pom.xml" />
+        <option value="$PROJECT_DIR$/mssc-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mssc-beer-service-b/pom.xml" />
+        <option value="$PROJECT_DIR$/mssc-inventory-failover/pom.xml" />
+        <option value="$PROJECT_DIR$/mssc-beer-order-service-b/pom.xml" />
+        <option value="$PROJECT_DIR$/mssc-beer-inventory-service-b/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="corretto-11" project-jdk-type="JavaSDK" />
+</project>

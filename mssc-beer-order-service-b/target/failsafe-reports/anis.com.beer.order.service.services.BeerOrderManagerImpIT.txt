@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: anis.com.beer.order.service.services.BeerOrderManagerImpIT
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.224 s <<< FAILURE! - in anis.com.beer.order.service.services.BeerOrderManagerImpIT
+itShouldAllocated  Time elapsed: 0.165 s  <<< ERROR!
+com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8080
+Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8080
+Caused by: java.io.IOException: Failed to bind to /0.0.0.0:8080
+Caused by: java.net.BindException: Address already in use
+
