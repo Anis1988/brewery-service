@@ -1,2 +1,3 @@
-/Users/anismedini/Downloads/mssc-gateway/src/main/java/com/gateway/MsscGatewayApplication.java
-/Users/anismedini/Downloads/mssc-gateway/src/main/java/com/gateway/config/GoogleConfig.java
+/Users/anismedini/Downloads/Brewery-Service/mssc-gateway/src/main/java/com/gateway/MsscGatewayApplication.java
+/Users/anismedini/Downloads/Brewery-Service/mssc-gateway/src/main/java/com/gateway/config/LoadBalancedRoutesConfig.java
+/Users/anismedini/Downloads/Brewery-Service/mssc-gateway/src/main/java/com/gateway/config/LocalHostRouteConfig.java

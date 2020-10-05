@@ -7,7 +7,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mssc-inventory-failover" />
         <module name="mssc-gateway" />
         <module name="mssc-eureka-b" />
         <module name="mssc-config-server" />
@@ -34,6 +33,7 @@
         </processorPath>
         <module name="mssc-beer-order-service" />
         <module name="mssc-beer-service-b" />
+        <module name="mssc-inventory-failover" />
         <module name="mssc-beer-inventory-service" />
       </profile>
     </annotationProcessing>
@@ -58,7 +58,7 @@
       <module name="mssc-config-server" options="-parameters" />
       <module name="mssc-eureka-b" options="-parameters" />
       <module name="mssc-gateway" options="-parameters" />
-      <module name="mssc-inventory-failover" options="-parameters" />
+      <module name="mssc-inventory-failover" options="-parameters -Amapstruct.defaultComponentModel=spring" />
     </option>
   </component>
 </project>

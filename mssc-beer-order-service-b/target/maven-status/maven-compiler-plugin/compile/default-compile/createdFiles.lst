@@ -57,6 +57,7 @@ anis/com/beer/order/service/services/listeners/ValidationResultListener.class
 anis/com/brewery/model/BeerOrderDto.class
 anis/com/beer/order/service/web/mappers/BeerOrderLineMapper.class
 anis/com/brewery/model/events/AllocateOrderResult.class
+anis/com/beer/order/service/config/LocalDiscovery.class
 anis/com/beer/order/service/BeerOrderServiceApplication.class
 anis/com/brewery/model/events/DeallocateOrderRequest$DeallocateOrderRequestBuilder.class
 anis/com/beer/order/service/web/mappers/BeerOrderLineMapperImpl_.class

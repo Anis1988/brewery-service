@@ -1,2 +1,3 @@
-com/gateway/config/GoogleConfig.class
+com/gateway/config/LoadBalancedRoutesConfig.class
+com/gateway/config/LocalHostRouteConfig.class
 com/gateway/MsscGatewayApplication.class
